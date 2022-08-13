@@ -50,7 +50,7 @@ server.delete('/cursos/:index', (req,res)=>{
 
     cursos.splice(index, 1);
 
-    return res.json({message:'Curso delteado com sucesso'});
+    return res.json({message:'Curso deletado com sucesso'});
 });
 
 server.listen(3000);
